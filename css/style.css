@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+ html, body, div, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, p, blockquote,  
+    pre, form, fieldset, table, th, td { margin: 0; padding: 0; }  
+#header{background-color:#141C1F;}
+#text-h{
+	text-align:center;
+	font-size: 1em;
+	color:#1F9CAE;
+	margin-bottom:20px;}
+#info-contacto{
+	margin-top:20px;
+	margin-bottom:20px;
+	font-size:0.8em;
+	}
+	
+.button-red{margin-top:20px; }
+.button-red li{list-style:none; margin-top:10px;float:left; margin-right:40px;}
+.button-red li img{margin-top:-10px; margin-right:10px;}
+
+.img-red-position{margin-top:-10px; margin-right:10px;}
+.display{margin-top:30px;}
+.display-facebook{position:relative; top:-23px; left:35px; height:0px; width:150px;}
+.display-block{margin:30px;}
+.sec-info-h{margin-top:20px;}
+
+.img-center{
+	text-align:center;
+}
+.banner{
+	background-color:#CACACA;
+	height:300px;
+}
+
+.sub-2{color:#F8601D;font-size:1.5em;}
+.t1{color:#1F9CAE; font-size:2.3em; font-weight:bold;}
+.t2{color:#F8601D; font-size:1.6em; font-weight:bold;}
+.t3{font-size:1.1em; margin-top:10px;}
+.t4{color:#F8601D; font-size:1.2em; font-weight:bold;}
+.t5{color:#1F9CAE;}
+.t6{color:#F8601D;}
+.t7{font-size:.8em; margin-top:10px;}
+.t-header{color:#1F9CAE; font-size:1.4em; font-weight:bold;}
+
+.text-1{ margin-top:75px;}
+.text-2{margin-top:40px;}
+
+.img-g{ margin-top:75px;}
+
+.pie-pag{background-color:#141C1F;margin-top:40px; padding-top:50px;padding-bottom:50px;}
+
+.side-red{list-style-type:none;}
+.side-red li{margin-top:10px;} 
+.side-red a div img{float:left; padding-top:5px;}
+
+.box{width:100%; height:50px;background-color:#1A2428;color:#FFF; }
+.box:hover{background-color:blue;}
+.twitter:hover{background-color:#4099FF;}
+.facebook:hover{background-color:#3B5998;}
+.google:hover{background-color:#DC4B38;}
+.icon-red{float:left; padding-left:30px;padding-top:10px;}
+
+.division{border-top:1px solid;height:0;padding:0;border-top-color:#e6e6e6; width:100%;margin-top:14px;}
+
+.sec-contacto{margin-top:15px;}
+.icon{float:left; margin-right:20px;}
+
+footer{background-color:#141C1F; color:#1F9CAE; height:50px; font-size:.9em;}
+
+.copy{margin-top:15px;}
+
+.menu{ margin-bottom:0px;}
+
+.space{ margin-top:40px;}
+.space-form{margin-top:15px;}
+
+/*panel*/
+.myPanel{border-style:solid;border-width:1px;border-color:#F8601D;margin-bottom:1.25em;padding:1.25em;background:#f97f4a;}
+.myPanel h1,.myPanel h2,.myPanel h3,.panel h4,.panel h5,.panel h6,.myPanel p{color:white}
+.promocionPrecio{font-size:3em;text-align:center;}
+.promocionPesos{font-size:1.5em; }
+/*slider*/
+.space-slider{ background-color:#FFF; padding-bottom:4px; width:100%; }
+
+/*Cuenta regresiva*/
+ br { clear: both; }
+      .cntSeparator {
+        font-size: 54px;
+        margin: 10px 7px;
+        color: #000;
+      }
+      .desc { margin: 7px 3px; }
+      .desc div {
+        float: left;
+        font-family: Arial;
+        width: 20%;
+        /*margin-right: 5%;*/
+        font-size: 13px;
+        font-weight: bold;
+        color: #000;
+      }
+
+
+.LV_valid {
+    color:#00CC00;
+	
+}
+	
+.LV_invalid {
+	color:#CC0000;
+}
+	
+.LV_validation_message{
+
+    margin-top:0px;
+	font-size:1em;
+}
+    
+.LV_valid_field,
+input.LV_valid_field:hover, 
+input.LV_valid_field:active,
+textarea.LV_valid_field:hover, 
+textarea.LV_valid_field:active,
+.fieldWithErrors input.LV_valid_field,
+.fieldWithErrors textarea.LV_valid_field {
+    border: 1px solid #00CC00;
+}
+    
+.LV_invalid_field, 
+input.LV_invalid_field:hover, 
+input.LV_invalid_field:active,
+textarea.LV_invalid_field:hover, 
+textarea.LV_invalid_field:active,
+.fieldWithErrors input.LV_invalid_field,
+.fieldWithErrors textarea.LV_invalid_field {
+    border: 1px solid #CC0000;
+}

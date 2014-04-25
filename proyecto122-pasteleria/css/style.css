@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+ html, body, div, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, p, blockquote,  
+    pre, form, fieldset, table, th, td { margin: 0; padding: 0; }  
+
+p{color:#800;}
+	
+body{background-color: #F2F2F2; }
+
+header{float:left;width:100%;}
+
+#cinto_header { height: 100px; width: 100%; background-color:#F2F2F2;}
+
+#contenido,.centro_tag {width: 900px; margin: 0px auto;	background-color:#F2F2F2;}
+
+#header_logo {
+	background-color: #CACACA;
+	float:left;
+	height: 50px;
+	width: 200px;
+	margin-top: 20px;
+}
+/***** Menu cabezera *****/
+#header_nav {
+	float: left;
+	margin-left: 20px;
+}
+#header_nav ul {
+	padding:0px;
+	margin-left:90px;
+	margin-top:30px;
+	list-style-type:none;
+}
+#header_nav ul li {float:left;}
+#header_nav ul li a{text-decoration:none;
+	color:#800000;
+	padding:2px 10px;
+	margin: 0px 25px;
+}
+#header_nav ul li a:hover{
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	background-color:#009;
+	color:#C79036;}
+/*****Fin de menu cabezera******/
+
+#galeria_fondo{  width:100%; height:400px; background-image:url('../img/textura_galeria.png');}
+.slides li img {height: 400px;}
+
+article{}
+#contenido{}
+	#info_pasteles { 
+		width:100%; 
+		border-style:inherit; 
+		border-bottom-width:thin; 
+		float:left;  
+		
+		}
+	#info_banner img{ margin-top:50px;}
+	
+	#info_general{ margin-top:20px;}
+	
+	/***** Catalogo *****/
+	#catalogo_pasteles{ float:left; margin-left:10px;}
+	#catalogo_pasteles table{
+		border-top:thin; 
+		border-top-style:dotted; 
+		margin-top:20px;}
+	#catalogo_pasteles table tr td p{
+		color:#C79036;
+		font-size:18px; 
+		}
+			#pastel_nombre{float:left; margin-left:10px; }
+			#pastel_precio{float:right; margin-right:10px; margin-left:150px; color:#800;}
+	#catalogo_pasteles tr td a{ float:left; margin-left:10px;}
+	/****** Fin de catalogo******/
+		
+	#info_horario{ float:left; margin-left:100px; color:#800;}
+	#info_horario table{border-top:thin; border-top-style:dotted; margin-top:20px; width:250px;}
+	#info_horario table tr td{padding-top:10px;}
+		#col_dias{color:#C79036;}
+		
+	#info_contacto { 
+		width:250px; 
+		height:100px; 
+		float:left; 
+		margin-left:100px; 
+		margin-top:40px;}
+		#info_contacto p{color:#800; margin-top:5px;}
+		#contacto{border-top:thin; border-top-style:dotted; margin-top:10px; width:250px;}
+		
+	footer{
+		float:left;
+		width: 100%;
+		height:50px;
+		background-color:#021722;	
+		margin-top:100px;
+	}
+		footer p{ color:#FFF; margin-top:10px;}
+
